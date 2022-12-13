@@ -1,4 +1,4 @@
-package main
+package firstblock
 
 import (
 	"bytes"
