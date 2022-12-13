@@ -55,7 +55,7 @@ func NewBlockChain() *BlockChain {
 	return &BlockChain{[]*Block{NewGenesisBlock()}}
 }
 
-const targetBits = 24
+const targetBits = 24 // 추출 난이도 선택
 
 type ProofOfWork struct {
 	block  *Block
